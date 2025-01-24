@@ -19,7 +19,7 @@ class Vehicle: #부모 클래스
 
 class Car(Vehicle): #car class가 vehicle class를 상속받음
     def get_info(self):
-        return super().get_info()
+        return super().get_info() #super() : 코드 중복 방지
 
     def ride_info(self):
         return f"My car is a {self.brand} {self.model} ."
@@ -34,7 +34,7 @@ class Truck(Vehicle): #자식 클래스
 
 
 
-car = Car("Kia", "K5")
+car = Car("Kia", "K3")
 truck = Truck("Kia", "Bongo")
 
 
