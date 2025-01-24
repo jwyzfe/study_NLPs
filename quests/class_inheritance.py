@@ -37,9 +37,9 @@ class Truck(Vehicle): #자식 클래스
 car = Car("Kia", "K5")
 truck = Truck("Kia", "Bongo")
 
-# Info retrieval
-print(car.get_info())  # Output: Brand: Toyota, Model: Camry
-print(car.ride_info())  # Output: The car Toyota Camry is ready for a comfortable ride.
 
-print(truck.get_info())  # Output: Truck Brand: Volvo, Truck Model: FH16
-print(truck.more_info())  # Output: The truck Volvo FH16 is designed for heavy-duty tasks.
+print(car.get_info())  
+print(car.ride_info())  
+
+print(truck.get_info())  
+print(truck.more_info()) 
